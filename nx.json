@@ -1,0 +1,12 @@
+{
+  "npmScope": "nxemail",
+  "affected": { "defaultBase": "main" },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test"]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "nx-email-builder",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "nx serve angular-app"
+  },
+  "private": true,
+  "devDependencies": {
+    "@nx/angular": "21.4.1",
+    "@nx/react": "21.4.1",
+    "typescript": "^5.5.0"
+  },
+  "dependencies": {
+    "@angular/common": "^20.0.0",
+    "@angular/core": "^20.0.0",
+    "@angular/forms": "^20.0.0",
+    "@angular/platform-browser": "^20.0.0",
+    "@angular/platform-browser-dynamic": "^20.0.0",
+    "@angular/router": "^20.0.0",
+    "rxjs": "^7.8.1",
+    "zone.js": "~0.14.0",
+    "angular-in-memory-web-api": "^0.16.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-to-webcomponent": "^1.7.0",
+    "email-builder-js": "^0.2.0"
+  }
+}
